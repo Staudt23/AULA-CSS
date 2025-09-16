@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+    background-image: url(./pexels-quentin-martinez-2147503099-33184075.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container1 {
+    height: 100vh;
+}
+
+.container2 {
+
+    height: 100vh;
+    background: linear-gradient(90deg, rgb(255, 204, 0) 0%, rgb(131, 17, 17) 30%, rgb(248, 104, 0) 100%);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.container3 {
+    height: 100vh;
+    background: linear-gradient(0deg,rgba(51, 161, 163, 1) 0%, rgba(17, 40, 102, 1) 100%);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+img {
+    margin: 20vh;
+    height: 300px;
+    /* box-shadow: 5px 5px 4px orange; */
+    filter: drop-shadow(10px 10px 8px rgb(248, 12, 4));
+}
+
+.piece {
+    filter: drop-shadow(10px 10px 8px rgb(89, 5, 134));
+}
