@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+    background-image: url(./360_F_329002139_cmFeAFvu47kRIfDuKWKA3mIuGvYnbax4.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 18px;
+    text-align: justify;
+}
+
+p.citacao {
+    font-style: oblique;
+    color: antiquewhite;
+    font-size: 20px;
+    line-height: 2;
+}
+
+#titulo {
+    color: red;
+    text-align: center;
+}

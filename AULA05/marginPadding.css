@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    height: 250px;
+    width: 250px;
+    border: solid 10px violet;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.box1 {
+    background-color: blueviolet;
+    /* margin: top right bottom left; */
+    margin-top: 25px;
+    margin-right: 50px;
+    margin-bottom: 70px;
+    margin-left: 100px;
+}
+
+.box2 {
+    background-color: rgb(250, 6, 148);
+    /* padding: top right bottom left; */
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 70px;
+    padding-right: 100px;
+}
