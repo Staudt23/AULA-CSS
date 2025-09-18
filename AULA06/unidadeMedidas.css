@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    font-size: 62.5%;
+
+}
+
+
+.texto1 {
+    font-size: 100px;
+    color: aqua;
+}
+
+.texto2 {
+    color: blueviolet;
+    height: 50vh;
+    width: 50vw;
+}
+
+.texto3 {
+    color: chocolate;
+    font-size: 1.4rem;
+}
+
+.texto4 {
+    font-size: 1.5rem;
+}
+
+ul {
+    font-size: 15px;
+}
+ p{
+    font-size: 2em;
+ }

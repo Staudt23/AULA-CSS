@@ -6,16 +6,48 @@ body {
     background-size: cover;
     font-size: 18px;
     text-align: justify;
+    margin: 20px;
+    padding: 20px;
 }
 
 p.citacao {
     font-style: oblique;
-    color: antiquewhite;
-    font-size: 20px;
     line-height: 2;
+    color: antiquewhite;
+    text-shadow: 3px 3px 5px whitesmoke;
 }
 
 #titulo {
     color: red;
     text-align: center;
+    border: inset orange;
+    text-shadow: 3px 3px 5px rgb(167, 17, 37);
 }
+
+img {
+    width: 400px;
+    height: 400px;
+    filter: drop-shadow(10px 10px 8px red);
+}
+
+figure {
+    background-color: rgb(131, 8, 8);
+    margin: 30px;
+    padding: 30px;
+    border: inset 10px rgb(6, 23, 17);
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+figcaption {
+    margin: 10px;
+    padding: 10px;
+    color: whitesmoke;
+    text-align: center;
+    font-style: inherit;
+}
+
+
+
+
