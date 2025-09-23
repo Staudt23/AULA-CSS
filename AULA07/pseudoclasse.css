@@ -1,0 +1,8 @@
+a:active {
+    color: lime;
+}
+
+input:focus {
+    background-color: steelblue;
+    color: aliceblue;
+}
