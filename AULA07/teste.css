@@ -1,0 +1,20 @@
+
+.box {
+    color: rgb(3, 190, 3);
+    font-style: oblique;  
+    text-shadow: 3px 3px 3px green;
+}
+
+img {
+    height: 800px;
+    width: 1200px;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 3px 3px 3px gray;
+}
+
+ul,li {
+    text-shadow: 3px 3px 3px #1a1010;
+}
