@@ -1,0 +1,7 @@
+p::after {
+    content: "venha aqui......";
+}
+
+p::before {
+    content: "clique aqui......";
+}

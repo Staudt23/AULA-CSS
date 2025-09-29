@@ -1,0 +1,39 @@
+h1 {
+    /* border: 10px solid blueviolet; */
+    /* border-top: 10px double violet;
+    border-right: 10px dashed black;
+    border-bottom: 10px ridge yellow;
+    border-left: 10px inset red; */
+    border-radius: 10px;
+    border: solid blue;
+    text-align: center;
+}
+
+h2 {
+    border: inset 15px slateblue;
+    text-align: center;
+}
+
+h3 {
+    border: dashed 15px blue;
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+figure {
+    background-color: rgb(24, 53, 3);
+    padding: 30px;
+    border: inset 10px rgb(22, 119, 88);
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+figcaption {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blanchedalmond;
+}
