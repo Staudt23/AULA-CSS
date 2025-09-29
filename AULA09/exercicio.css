@@ -1,0 +1,38 @@
+body {
+  background-image: url(./fundo\ preto.jpg);
+  background-color: var(--cor-fundo);
+  text-align: center;
+}
+
+:root {
+  --cor-fundo: rgb(114, 94, 6);
+  --cor-letra: rgb(173, 96, 8);
+  --cor-fonte: rgb(255, 196, 1);
+}
+.box:hover {
+  height: 20px;
+  width: 60px;
+  background-color: rgb(145, 106, 0);
+}
+div {
+  border: solid rgb(192, 184, 184);
+  color: aliceblue;
+  display: inline-block;
+  text-shadow: 3px 3px 3px;
+  margin: 50px;
+  padding: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-shadow: 3px 3px 3px red;
+  text-align: center;
+  color: var(--cor-fonte);
+}
+p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: var(--cor-letra);
+}

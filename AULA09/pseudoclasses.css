@@ -1,0 +1,21 @@
+:root {
+    --cor-fundo: rgb(17, 17, 68);
+    --cor-fonte: rgb(56, 56, 138);
+    --cor-titulo: rgb(14, 121, 115);
+}
+
+
+.box {
+    height: 150px;
+    width: 150px;
+    border: solid green;
+    margin: 5px;
+    background-color: var(--cor-fundo);
+}
+.box2:hover {
+    background-color: rgb(58, 17, 52);
+}
+
+h1 {
+    color: var(--cor-titulo);
+}

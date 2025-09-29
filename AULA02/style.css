@@ -1,0 +1,72 @@
+* {
+    margin: 1%;
+    padding: 1%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+p.citacao {
+    text-align: right;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.corFundo {
+    background-color: aqua;
+    color: aliceblue;
+}
+
+.Teste {
+    background-color: blueviolet;
+    color: blue;
+}
+
+#titulo {
+    color: rgb(238, 255, 4);
+    text-shadow: 3px 3px 5px rgb(239, 5, 5);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+article p {
+    color: crimson;
+}
+
+li a {
+    color: darkgoldenrod;
+}
+
+article h1 {
+    text-align: center;
+    background-color: black;
+    color: brown;
+    text-shadow: 5px 5px 10px rgb(239, 5, 5)
+}
+
+h2,h3 {
+    background-color: #ae1d1d;
+    text-align: center;
+    color: darkorange;
+    text-shadow: 5px 5px 10px rgb(6, 0, 0);
+}
+
+nav {
+    background-color: blueviolet;
+    height: 10vh;
+}
+
+nav > ul {
+    text-align: center;
+}
+
+ul > li {
+    display: inline;
+    margin: 20px;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: antiquewhite;
+    margin: 20px;
+    padding: 20px;
+}

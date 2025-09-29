@@ -1,0 +1,52 @@
+.container {
+  height: 400px;
+  width: 700px;
+  background-color: brown;
+  border: solid 2px rgb(0, 0, 0);
+  /* flex box */
+  display: flex;
+  /* alinhamento com o main-axis */
+  /* justify-content: flex-start; os itens sao exibidos alinhados no inicio do flex-direction
+  /* justify-content: center; os itens sao exibidos alinhados no centro do flex-direction */
+  /* justify-content: flex-end; os itens sao exibidos alinhados no final do flex-direction */
+  /* justify-content: baseline; alinhamento com a linha do texto */
+  /* justify-content: start; nao leva em consideração o main-axis */
+  /* justify-content: end; nao leva em consideração o main-axis  */
+  /* justify-content: space-around; os itens são distribuidos uniformemente na linha com tamanhos de espaços iguais */
+  /* justify-content: space-between; os itens são distribuidos uniformemente na linha*/
+  /* justify-content: space-evenly; os itens sao distribuidos de forma que o espaçamento entre quaisquer dois itens*/
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+  /* flex-direction: row; */
+  /* flex-direction: row-reverse; */
+   /* flex-wrap: wrap; */
+   /* flex-flow: row wrap;
+   align-items: center; */
+   /* align-items: end; */
+   align-items: center;
+   justify-content: center;
+}
+
+.box {
+  background-color: pink;
+  height: 100px;
+  width: 100px;
+  border: solid 2px black;
+  box-sizing: border-box;
+  margin: 2px;
+}
+
+.box1 {
+    /* flex-grow: 1; */
+    order: 3;
+}
+
+.box2 {
+    /* flex-grow: 1; */
+    order: 2;
+}
+
+.box3 {
+    /* flex-shrink: 3; */
+    order: 3;
+}
