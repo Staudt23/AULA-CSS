@@ -1,0 +1,29 @@
+@media screen and (max-width: 400px) {
+  h1 {
+    color: darkred;
+  }
+}
+/* formato para telas menores */
+@media print and (max-width: 1200px) {
+  h2 {
+    color: gold;
+  }
+}
+/* formato para impressoras */
+@media (max-width: 500px) {
+  h3 {
+    color: indigo;
+  }
+}
+
+@media (min-width: 600px) {
+  h4 {
+    color: cornflowerblue;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 750px) {
+  h5 {
+    color: purple;
+  }
+}
