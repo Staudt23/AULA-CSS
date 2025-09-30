@@ -1,0 +1,31 @@
+body {
+  background-image: url(./avengers.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  p {
+    font-size: 1.5em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
+
+@media (max-width: 480px) {
+  img {
+    display: none;
+  }
+}
+
+@media (max-width: 1025px) {
+  p {
+    text-align: justify;
+  }
+  h1,
+  h2 {
+    text-align: center;
+    color: chartreuse;
+  }
+}
