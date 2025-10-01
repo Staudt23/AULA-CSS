@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas:
+    "header header header header"
+    "main main aside aside"
+    "main main aside aside"
+    "footer footer footer footer";
+  gap: 30px;
+  /* grid-column-gap: ;
+  grid-row-gap: ; */
+}
+
+.box1 {
+  grid-area: header;
+  background: linear-gradient(
+    90deg,
+    rgba(87, 41, 143, 1) 0%,
+    rgba(142, 108, 121, 1) 33%,
+    rgba(147, 114, 119, 1) 39%,
+    rgba(174, 146, 108, 1) 52%,
+    rgba(237, 221, 83, 1) 100%
+  );
+}
+.box2 {
+  grid-area: main;
+  background: radial-gradient(
+    circle,
+    rgba(255, 0, 111, 1) 0%,
+    rgb(233, 179, 148) 100%
+  );
+}
+.box3 {
+  grid-area: aside;
+  background: radial-gradient(
+    circle,
+    rgb(43, 90, 54) 0%,
+    rgb(11, 10, 12) 28%,
+    rgba(118, 154, 138, 1) 60%,
+    rgba(255, 225, 0, 1) 100%
+  );
+}
+.box4 {
+  grid-area: footer;
+  background: linear-gradient(
+    0deg,
+    rgba(55, 0, 237, 1) 0%,
+    rgba(17, 186, 39, 1) 100%
+  );
+}
