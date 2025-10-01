@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  height: 100vh;
+  border: solid 5px violet;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-areas:
+    "header header header header header header"
+    "main main main main img img"
+    "main main main main img img"
+    "main main main main img img"
+    "footer footer footer footer footer footer";
+}
+.box1 {
+  grid-area: header;
+  background-color: coral;
+}
+
+.box2 {
+  grid-area: main;
+  background-color: blueviolet;
+}
+
+.box3 {
+  grid-area: img;
+  background-color: darkgray;
+}
+
+.box4 {
+  grid-area: footer;
+  background-color: darkblue;
+}

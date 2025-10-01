@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  height: 100vh;
+  border: 5px solid black;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  grid-template-areas:
+    "header header header header header header header header header header "
+    "header header header header header header header header header header "
+    "main main main main img img img img footer footer"
+    "main main main main img img img img footer footer"
+    "main main main main img img img img footer footer"
+    "main main main main img img img img footer footer"
+    "gojo gojo gojo gojo gojo gojo gojo gojo gojo gojo"
+    "gojo gojo gojo gojo gojo gojo gojo gojo gojo gojo"
+    "sukuna sukuna sukuna sukuna sukuna thanos thanos thanos thanos thanos"
+    "sukuna sukuna sukuna sukuna sukuna thanos thanos thanos thanos thanos";
+    
+}
+
+.box1 {
+  grid-area: header;
+  background: linear-gradient(
+    90deg,
+    rgba(87, 41, 143, 1) 0%,
+    rgb(119, 8, 86) 33%,
+    rgba(147, 114, 119, 1) 39%,
+    rgba(174, 146, 108, 1) 52%,
+    rgba(237, 221, 83, 1) 100%
+  );
+  border: 5px solid black;
+  font-size: 100px;
+  text-shadow: 3px 3px 3px white;
+  justify-content: flex-start;
+}
+
+.box2 {
+  grid-area: main;
+  background: linear-gradient(
+    90deg,
+    rgba(22, 99, 130, 1) 0%,
+    rgba(17, 79, 42, 1) 50%,
+    rgba(237, 221, 83, 1) 100%
+  );
+  border: 5px solid black;
+  font-size: 100px;
+  text-shadow: 3px 3px 3px white;
+}
+
+.box3 {
+  grid-area: img;
+  background: radial-gradient(
+    circle,
+    rgba(67, 85, 176, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+  border: 5px solid black;
+  font-size: 100px;
+  text-shadow: 3px 3px 3px white;
+}
+
+.box4 {
+  grid-area: footer;
+  background: linear-gradient(
+    90deg,
+    rgba(103, 0, 171, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(26, 17, 3, 1) 100%
+  );
+  border: 5px solid black;
+  font-size: 100px;
+  text-shadow: 3px 3px 3px white;
+}
+.box5 {
+  grid-area: gojo;
+  background: linear-gradient(
+    0deg,
+    rgba(55, 0, 237, 1) 0%,
+    rgba(17, 186, 39, 1) 100%
+  );
+  border: 5px solid black;
+  font-size: 100px;
+  text-shadow: 3px 3px 3px white;
+}
+
+.box6 {
+  grid-area: sukuna;
+  background: radial-gradient(
+    circle,
+    rgba(38, 0, 255, 1) 0%,
+    rgba(61, 0, 204, 1) 28%,
+    rgba(118, 154, 138, 1) 60%,
+    rgba(255, 225, 0, 1) 100%
+  );
+  border: 5px solid black;
+  font-size: 100px;
+  text-shadow: 3px 3px 3px white;
+}
+
+.box7 {
+  grid-area: thanos;
+  background: radial-gradient(
+    circle,
+    rgba(255, 0, 111, 1) 0%,
+    rgba(233, 179, 148, 0.15) 100%
+  );
+  border: 5px solid black;
+  font-size: 100px;
+  text-shadow: 3px 3px 3px white;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
